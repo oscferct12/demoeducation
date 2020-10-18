@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <title>Caasst</title>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+    <script type="text/javascript" src="wordfind.js"></script> 
+    <script type="text/javascript" src="wordfindgame.js"></script> 
+</head>
+<body>
+    <header>
+        <section id="menu">
+            <ul>
+                <div class="iniciar"><center><br><br><br><li><a href="../../index.html">Inicio</a></li></center></div>
+                <div class="niveles"><li><a href="../../niveles/niveles.html">Niveles</a></li></div>
+
+                 <div class="niv1"><li>Nivel 2</li></div>
+            </ul>
+            
+        </section>
+        
+    </header>
+    <h1>Caasst</h1>
+    <br><br><br>
+
+    <div id='juego'></div>
+    <div id='Palabras'></div>
+    <br>
+    <div><button id='solve'>Me rindo</button></div>
+    
+   
+    <script>
+    var words = ['Amazonas','Mamíferos','Reptiles','Aves','Indígenas','Plantas','Leticia','Artesanía','Lagos','Selvas','Peces','Anfibios','Lluvia','Ecosistema','Pirañas','Conservación','Chamanes','Territorio','Islas','Biodiversidad','Rituales','Región'];
+    var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras'); 
+        
+    var puzzle = wordfind.newPuzzle(words,{height: 18, width:18, fillBlanks: false});
+    wordfind.print(puzzle);   
+        
+    $('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
+        
+    </script>
+    <div class="next">
+    <ul>
+      <li>
+     <a href="../../nivel3/nivel3.html">Siguiente nivel</a>
+     </li>
+  </ul>
+  </div>
+
+  <div class="next1">
+    <ul>
+      <li>
+     <a href="../../nivel1/nivel1.html">Nivel anterior</a>
+     </li>
+  </ul>
+  </div>
+    
+</body>
+</html>

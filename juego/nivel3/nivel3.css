@@ -1,0 +1,146 @@
+body{
+  background: #FFFFFF;
+}
+
+
+
+*{
+  padding:0;
+  margin: 0;
+  
+}
+
+header{
+  background: #FFFFFF;
+  width: 100%;
+  height: 60px;
+  box-shadow: 1px 1px 5px #000;
+  position: fixed;
+}
+
+h1 {
+  color: #309991;
+  font-family: 'Fredoka One', cursive;
+  font-size: 45px;
+  position: fixed;
+  left: 7%;
+  top: -0%;
+}
+
+
+ ul {
+  color: #FFFFFF;
+  text-align: justify;
+  list-style: none;
+  
+  }
+.iniciar a {
+  color: #FFFFFF;
+  position: fixed;
+  left: 90%; top: 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  background: #309991;
+  width: 8%; right: 20%; 
+  border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
+
+}
+
+
+
+li a:hover{
+  background: #EEEE3E;
+}
+
+.niv1 li{
+  position: fixed;
+  left: 45%;
+  top: 1%;
+  list-style: none;
+  text-align: center;
+  font-size: 40px;
+  color: #EEEE3E;
+  font-family: 'Roboto', sans-serif;
+}
+
+.niveles a{
+  text-align: center;
+   color: #FFFFFF;
+  position: fixed;
+  left: 81%; top: 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  background: #309991;
+  width: 8%; right: 20%; 
+  border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
+
+
+}
+
+.main{
+  background: #F4F4EC;
+  width: 80%; height: 70%;
+  position: absolute;
+  left: 10%; top: 20%;
+  border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
+box-shadow: 1px 1px 5px #000;
+
+}
+
+.main img{
+  width: 100%; height: 104%;
+  border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
+}
+
+.main h3{
+  position: absolute;
+  left: 12%; top: 20%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 115px;
+  text-align: center;
+  color: #FFFFFF;
+ text-shadow: 0.1em 0.1em #333
+}
+
+.main a{
+  background:#309991;
+  position: absolute;
+  left: 70%; top: 70%;
+  width: 230px; height: 70px;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+border: 0px solid #000000;
+box-shadow: 1px 1px 5px #000;
+}
+
+.main a:hover{
+  color: #FFFFFF;
+  background: #EEEE3E;
+}
+
+.main li{
+  text-align: center;
+}
